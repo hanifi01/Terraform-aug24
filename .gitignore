@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 **terraform.lock.hcl
 
+=======
+>>>>>>> d4581604beedac91107a41e4c218e926a1a693e1
 # Local .terraform directories
 **/.terraform/*
 
