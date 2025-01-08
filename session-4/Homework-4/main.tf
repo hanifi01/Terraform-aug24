@@ -24,11 +24,9 @@ resource "aws_subnet" "private" {
   availability_zone = element(local.azs, count.index)
 
   tags = {
-    Name = "private-subne001-${count.index}"
+    Name = "private-subnet001-${count.index}"
   }
 }
-
-
 
 
 # Terraform Documentation:

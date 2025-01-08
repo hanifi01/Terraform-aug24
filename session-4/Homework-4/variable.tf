@@ -7,5 +7,5 @@ variable "vpc_cidr" {
 variable "number_of_subnets" {
   description = "Number of subnets to create"
   type        = number
-  default     = 2
+  default     = 3
 }
